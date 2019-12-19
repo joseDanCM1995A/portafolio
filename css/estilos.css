@@ -361,9 +361,15 @@ footer .redessociales .githubb:hover {
     .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
         font-size: 10px;
     }
+    .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
+        font-size: 10px;
+    }
 }
 
 @media(max-width: 400px) {
+    header .menu {
+        padding-bottom: 0;
+    }
     header .contenedor-texto .texto .nombre {
         font-size: 15px;
     }
@@ -384,13 +390,16 @@ footer .redessociales .githubb:hover {
         padding-bottom: 10px;
     }
     header .menu a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header .contenedor-texto .texto .nombre {
         font-size: 20px;
         font-weight: 400;
     }
     .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
+        font-size: 10px;
+    }
+    .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
         font-size: 10px;
     }
 }
