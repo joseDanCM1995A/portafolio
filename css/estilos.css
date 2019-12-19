@@ -225,6 +225,7 @@ footer .contacto .formulario {
 
 footer .contacto .formulario input[type="text"],
 footer .contacto .formulario input[type="email"],
+footer .contacto .formulario input[type="tel"],
 footer .contacto .formulario textarea {
     border: 2px solid #cecece;
     border-radius: 10px;
@@ -235,13 +236,15 @@ footer .contacto .formulario textarea {
 
 footer .contacto .formulario input[type="text"]:focus,
 footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario input[type="tel"]:focus,
 footer .contacto .formulario textarea:focus {
     border: 2px solid #3895ea;
 }
 
 footer .contacto .formulario input[type="text"],
-footer .contacto .formulario input[type="email"] {
-    width: 49%;
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario input[type="tel"] {
+    width: 33%;
     margin-bottom: 15px;
 }
 

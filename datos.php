@@ -2,9 +2,10 @@
     //rcuperando variables del html
     $nombre = $_POST["nombre"];
     $correo = $_POST["correo"];
+    $telefono = $_POST["telefono"];
     $mensaje = $_POST["mensaje"];
 
-    $body = "Nombre: " . $nombre . "<br>Correo: " . $correo ."<br>Mensaje: " . $mensaje; 
+    $body = "Nombre: " . $nombre . "<br>Correo: " . $correo . "<br>Telefono: " . $telefono . "<br>Mensaje: " . $mensaje; 
 
     include_once('phpmailer/PHPMailer.php');
     include_once('phpmailer/SMTP.php');
@@ -34,7 +35,7 @@
     echo "ERROR: " . $mail->ErrorInfo;
  } else {
     echo "<script>
-        alert('Los datos se han enviado correctamente...pronto me pondré en contacto con usted');
+        alert('Los datos se han enviado correctament. Pronto me pondré en contacto con usted. Gracias');
         function redireccionar(){
             window.location= 'index.html';
           } 
