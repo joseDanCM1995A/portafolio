@@ -319,16 +319,23 @@ footer .redessociales .githubb:hover {
     color: black;
 }
 
-@media screen and(max-width:800px) {
+@media(max-width:800px) {
     header .menu {
         text-align: center;
     }
     .main .trabajos .contenedor-trabajos .trabajo {
         width: 46%;
     }
+    .main .acercade .contenedor .texto {
+        font-size: 14px;
+    }
+    footer .redessociales {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
 }
 
-@media screen and(max-width: 500px) {
+@media(max-width: 500px) {
     header .contenedor-texto .texto .nombre {
         font-size: 35px;
     }
@@ -340,5 +347,12 @@ footer .redessociales .githubb:hover {
     footer .contacto .formulario input[type="tel"],
     footer .contacto .formulario textarea {
         font-size: 15px;
+    }
+    .main .acercade .contenedor .texto {
+        font-size: 14px;
+    }
+    footer .redessociales {
+        padding-top: 30px;
+        padding-bottom: 10px;
     }
 }
