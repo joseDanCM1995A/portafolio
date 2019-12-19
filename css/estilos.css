@@ -402,4 +402,13 @@ footer .redessociales .githubb:hover {
     .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
         font-size: 10px;
     }
+    footer .redessociales p {
+        font-size: 10px;
+    }
+    footer .redessociales a {
+        font-size: 20px;
+    }
+    .contenedor {
+        margin-top: 0;
+    }
 }
