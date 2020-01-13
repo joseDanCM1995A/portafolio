@@ -320,6 +320,9 @@ footer .redessociales .githubb:hover {
 }
 
 @media(max-width:800px) {
+    header .contenedor-texto {
+        margin-top: 0;
+    }
     header .menu {
         text-align: center;
     }
@@ -336,6 +339,12 @@ footer .redessociales .githubb:hover {
 }
 
 @media(max-width: 500px) {
+    header .menu {
+        margin-bottom: 20px;
+    }
+    header .contenedor-texto {
+        margin-top: 0;
+    }
     header .contenedor-texto .texto .nombre {
         font-size: 35px;
     }
@@ -367,6 +376,12 @@ footer .redessociales .githubb:hover {
 }
 
 @media(max-width: 400px) {
+    header .menu {
+        margin-bottom: 20px;
+    }
+    header .contenedor-texto {
+        margin-top: 0;
+    }
     header .menu {
         padding-bottom: 0;
     }
