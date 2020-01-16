@@ -275,6 +275,11 @@ footer .contacto .formulario .boton:hover {
 
 /*REDES SOCIALES - FOOTER*/
 
+footer .redessociales .lol {
+    color: white;
+    font-size: bold;
+}
+
 footer .redessociales {
     background: #000;
     padding-top: 60px;
