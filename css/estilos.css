@@ -319,6 +319,11 @@ footer .redessociales .githubb:hover {
     color: black;
 }
 
+footer .redessociales .whats:hover {
+    background: #00BB2D;
+    color: white;
+}
+
 @media(max-width:800px) {
     header .contenedor-texto {
         margin-top: 0;
