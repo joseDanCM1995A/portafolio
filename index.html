@@ -203,28 +203,6 @@
     </section>
 
 
-    <!-- Your customer chat code -->
-    <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                xfbml: true,
-                version: 'v5.0'
-            });
-        };
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <div class="fb-customerchat" attribution=setup_tool page_id="2165474377062588" theme_color="#3b5998">
-    </div>
-    <!--  -->
     <footer>
         <section class="contacto">
             <div class="contenedor">
@@ -255,8 +233,34 @@
         </section>
 
     </footer>
-    <!-- script de messenger -->
-    <!-- Load Facebook SDK for JavaScript -->
+
+    <section class="redessociales">
+        <div class="contenedor">
+            <h1>messenger</h1>
+            <!-- Your customer chat code -->
+            <div id="fb-root"></div>
+            <script>
+                window.fbAsyncInit = function() {
+                    FB.init({
+                        xfbml: true,
+                        version: 'v5.0'
+                    });
+                };
+
+                (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-customerchat" attribution=setup_tool page_id="2165474377062588" theme_color="#3b5998">
+            </div>
+            <!--  -->
+        </div>
+    </section>
 
 
 
