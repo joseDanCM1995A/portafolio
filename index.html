@@ -220,31 +220,7 @@
 
         <section class="redessociales">
             <div class="contenedor">
-                <!-- script de messenger -->
-                <!-- Load Facebook SDK for JavaScript -->
-                <div id="fb-root"></div>
-                <script>
-                    window.fbAsyncInit = function() {
-                        FB.init({
-                            xfbml: true,
-                            version: 'v5.0'
-                        });
-                    };
 
-                    (function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }(document, 'script', 'facebook-jssdk'));
-                </script>
-
-                <!-- Your customer chat code -->
-                <div class="fb-customerchat" attribution=setup_tool page_id="2165474377062588" theme_color="#0084ff">
-                </div>
-                <!--  -->
                 <a href="https://wa.me/5217225949634?text=Me%20gustaria%20ponerme%20en%20contacto%20con%20usted" class="whats" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
             </div>
             <div class="contenedor">
@@ -254,11 +230,36 @@
                 <a href="https://github.com/joseDanCM1995A" class="githubb"><i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
             <p>Sitio desarrollado por José Daniel Contreras Medina </p>
-            <p>ingejosedancm@gmail.com 7293927076</p>
+            <p>ingejosedancm@gmail.com</p>
 
         </section>
 
     </footer>
+    <!-- script de messenger -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v5.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="2165474377062588" theme_color="#0084ff">
+    </div>
+    <!--  -->
 </body>
 
 </html>
