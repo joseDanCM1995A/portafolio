@@ -21,10 +21,10 @@
     //puerto que usa Gmail 465 or 587
     $mail->Port = 465; 
     //para acceder a la cuenta
-    $mail->Username = "ingejosedancm@gmail.com";
+    $mail->Username = "portafolio.jdcm@gmail.com";
     $mail->Password = "nst.DEXALRAK1995A";
 
-    $mail->SetFrom("ingejosedancm@gmail.com", $nombre);
+    $mail->SetFrom("portafolio.jdcm@gmail.com", $nombre);
     $mail->AddAddress("ingejosedancm@gmail.com");
     $mail->Subject = "Te quieren contactar - Portafolio";
     $msj= $body;
