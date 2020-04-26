@@ -13,7 +13,7 @@
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->IsSMTP(); // enable SMTP
-    $mail->SMTPDebug = 0; // debugging: 1 = errors and messages, 2 = messages only
+    $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
     //authentication SMTP enabled
     $mail->SMTPAuth = true; 
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
@@ -21,10 +21,10 @@
     //puerto que usa Gmail 465 or 587
     $mail->Port = 465; 
     //para acceder a la cuenta
-    $mail->Username = "portafoliojdcm@gmail.com";
+    $mail->Username = "ingejosedancm@gmail.com";
     $mail->Password = "nst.DEXALRAK1995A";
 
-    $mail->SetFrom("portafoliojdcm@gmail.com", $nombre);
+    $mail->SetFrom("ingejosedancm@gmail.com", $nombre);
     $mail->AddAddress("ingejosedancm@gmail.com");
     $mail->Subject = "Te quieren contactar - Portafolio";
     $msj= $body;
