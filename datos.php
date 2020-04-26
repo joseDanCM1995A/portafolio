@@ -9,10 +9,11 @@
 
     include_once('phpmailer/PHPMailer.php');
     include_once('phpmailer/SMTP.php');
+    include_once('phpmailer/Exception.php');
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->IsSMTP(); // enable SMTP
-    $mail->SMTPDebug = 0; // debugging: 1 = errors and messages, 2 = messages only
+    $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
     //authentication SMTP enabled
     $mail->SMTPAuth = true; 
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail

@@ -56,7 +56,8 @@ header .contenedor-texto {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 140px 0;
+    margin-top: 0;
+    margin-bottom: 140px;
 }
 
 header .contenedor-texto .texto {
@@ -132,7 +133,7 @@ header .contenedor-texto .texto .profesion {
 
 .main .trabajos {
     background: #f2f2f2;
-    padding: 60px 0;
+    padding: 15px 0;
 }
 
 .main .trabajos .contenedor {
@@ -185,7 +186,7 @@ header .contenedor-texto .texto .profesion {
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
-    font-size: 12px;
+    font-size: 10px;
     color: #636363;
 }
 
@@ -205,7 +206,7 @@ header .contenedor-texto .texto .profesion {
 /*FOOTER*/
 
 footer .contacto {
-    padding: 60px 0;
+    padding: 10px 0;
 }
 
 footer .contacto .titulo {
@@ -221,6 +222,7 @@ footer .contacto .formulario {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 footer .contacto .formulario input[type="text"],
@@ -282,7 +284,7 @@ footer .redessociales .lol {
 
 footer .redessociales {
     background: #000;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
