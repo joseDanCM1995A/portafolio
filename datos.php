@@ -36,7 +36,7 @@
     echo "ERROR: " . $mail->ErrorInfo;
  } else {
     echo "<script>
-        alert('Los datos se han enviado correctament. Pronto me pondré en contacto con usted. Gracias');
+        alert('Los datos se han enviado correctamente. Pronto me pondré en contacto con usted. Gracias');
         function redireccionar(){
             window.location= 'index.html';
           } 
