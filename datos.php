@@ -13,7 +13,7 @@
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->IsSMTP(); // enable SMTP
-    $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
+    $mail->SMTPDebug = 0; // debugging: 1 = errors and messages, 2 = messages only
     //authentication SMTP enabled
     $mail->SMTPAuth = true; 
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
@@ -40,7 +40,7 @@
         function redireccionar(){
             window.location= 'index.html';
           } 
-          setTimeout ('redireccionar()', 1000); //tiempo expresado en milisegundos
+          setTimeout ('redireccionar()', 500); //tiempo expresado en milisegundos
         </script>";
  }
 ?>
