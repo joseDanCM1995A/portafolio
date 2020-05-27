@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    scroll-behavior: smooth;
+}
+
+#particles-js {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 .foto1 {
     width: 200px;
     height: 200px;
@@ -13,6 +25,8 @@ body {
     background: #fff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    position: relative;
+    z-index: 99;
 }
 
 .contenedor {
@@ -20,6 +34,8 @@ body {
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+    position: relative;
+    z-index: 99;
 }
 
 
@@ -283,7 +299,7 @@ footer .redessociales .lol {
 }
 
 footer .redessociales {
-    background: #000;
+    background: black;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -328,6 +344,12 @@ footer .redessociales .githubb:hover {
 
 footer .redessociales .whats:hover {
     background: #00BB2D;
+    color: white;
+}
+
+.particulas {
+    background: blue;
+    width: 100%;
     color: white;
 }
 
