@@ -385,11 +385,15 @@ footer .redessociales .whats:hover {
     header .contenedor-texto .texto .profesion {
         font-size: 18px;
     }
+    footer .contacto .formulario {
+        flex-direction: column;
+    }
     footer .contacto .formulario input[type="text"],
     footer .contacto .formulario input[type="email"],
     footer .contacto .formulario input[type="tel"],
     footer .contacto .formulario textarea {
         font-size: 15px;
+        width: 100%;
     }
     .main .acercade .contenedor .texto {
         font-size: 10px;
@@ -424,6 +428,9 @@ footer .redessociales .whats:hover {
     }
     header .contenedor-texto .texto .profesion {
         font-size: 18px;
+    }
+    footer .contacto .formulario {
+        flex-direction: column;
     }
     footer .contacto .formulario input[type="text"],
     footer .contacto .formulario input[type="email"],
