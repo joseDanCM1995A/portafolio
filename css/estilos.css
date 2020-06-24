@@ -169,11 +169,12 @@ header .contenedor-texto .texto .profesion {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo {
     width: 23%;
+    margin-right: 10px;
     margin-bottom: 30px;
 }
 
