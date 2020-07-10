@@ -426,9 +426,14 @@ footer .redessociales .whats:hover {
     }
     header .contenedor-texto .texto .nombre {
         font-size: 15px;
+        font-weight: bold;
+        margin: 0;
     }
     header .contenedor-texto .texto .profesion {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    header .contenedor-texto .texto .nivel {
+        font-size: 16px;
     }
     footer .contacto .formulario {
         flex-direction: column;
