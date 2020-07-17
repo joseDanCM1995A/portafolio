@@ -147,6 +147,37 @@ header .contenedor-texto .texto .profesion {
     text-decoration: underline;
 }
 
+.main .acercade .contenedor .texto .p {
+    text-align: center;
+}
+
+
+/* cv */
+
+.cv {
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px;
+}
+
+.cv h5 {
+    margin: 0;
+    align-content: center;
+}
+
+.cv .refCv {
+    color: black;
+    font-size: 20px;
+}
+
+.cv .refCv:hover {
+    color: #009688;
+    transition: 1s;
+}
+
+
+/* fin cv */
+
 .main .trabajos {
     background: #f2f2f2;
     padding: 15px 0;
@@ -303,14 +334,62 @@ footer .redessociales {
     background: black;
     padding-top: 20px;
     padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
 
 footer .redessociales .contenedor {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-footer .redessociales a {
+footer .redessociales .boxSocial1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0 70px;
+    padding: 0 50px;
+}
+
+footer .redessociales .boxSocial1 p {
+    color: white;
+}
+
+footer .redessociales .boxSocial1 .rs {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .redessociales .boxSocial1 .rs a {
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+    margin: 0;
+}
+
+footer .redessociales .boxSocial1 .rs a {
+    color: white;
+}
+
+footer .redessociales .boxSocial2 {
+    border-left: 1px solid white;
+    margin-left: 80px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+footer .redessociales .boxSocial2 p {
+    font-size: 15px;
+    color: #fff;
+}
+
+
+/* footer .redessociales a {
     color: #fff;
     text-align: center;
     width: 100px;
@@ -319,33 +398,18 @@ footer .redessociales a {
     border-radius: 10px;
     font-size: 30px;
     margin: 0 20px;
-}
-
-footer .redessociales p {
-    color: #fff;
-    text-align: center;
-}
-
-footer .redessociales .fb:hover {
-    background: #3b5998;
-}
-
-footer .redessociales .inst:hover {
-    background: #e1306c;
-}
+} */
 
 footer .redessociales .lnk:hover {
     background: #0077b5;
 }
 
 footer .redessociales .githubb:hover {
-    background: whitesmoke;
-    color: black;
+    background: #263238;
 }
 
 footer .redessociales .whats:hover {
     background: #00BB2D;
-    color: white;
 }
 
 .particulas {
@@ -370,6 +434,12 @@ footer .redessociales .whats:hover {
     footer .redessociales {
         padding-top: 30px;
         padding-bottom: 10px;
+    }
+    footer .redessociales .boxSocial1 {
+        padding-left: 110px;
+    }
+    footer .redessociales .boxSocial2 {
+        margin-left: 80px;
     }
 }
 
@@ -402,6 +472,22 @@ footer .redessociales .whats:hover {
     footer .redessociales {
         padding-top: 30px;
         padding-bottom: 10px;
+        flex-direction: column;
+    }
+    footer .redessociales .boxSocial1 {
+        text-align: center;
+        margin-right: 0;
+        padding: 0;
+    }
+    footer .redessociales .boxSocial1 .rs {
+        justify-content: center;
+        align-content: center;
+    }
+    footer .redessociales .boxSocial2 {
+        border-left: 0;
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
     }
     header .menu a {
         font-size: 12px;
@@ -411,6 +497,9 @@ footer .redessociales .whats:hover {
     }
     .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
         font-size: 10px;
+    }
+    .cv {
+        margin-top: 10px;
     }
 }
 
@@ -450,6 +539,10 @@ footer .redessociales .whats:hover {
     footer .redessociales {
         padding-top: 30px;
         padding-bottom: 10px;
+        flex-direction: column;
+    }
+    footer .redessociales .boxSocial2 p {
+        font-size: 13px;
     }
     header .menu a {
         font-size: 12px;
@@ -465,7 +558,7 @@ footer .redessociales .whats:hover {
         font-size: 10px;
     }
     footer .redessociales p {
-        font-size: 10px;
+        font-size: 15px;
     }
     footer .redessociales a {
         font-size: 20px;
