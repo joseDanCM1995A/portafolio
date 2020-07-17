@@ -351,7 +351,7 @@ footer .redessociales .boxSocial1 {
     display: flex;
     flex-direction: column;
     margin-right: 0 70px;
-    padding: 0 50px;
+    padding: 0 150px;
 }
 
 footer .redessociales .boxSocial1 p {
@@ -378,8 +378,8 @@ footer .redessociales .boxSocial1 .rs a {
 
 footer .redessociales .boxSocial2 {
     border-left: 1px solid white;
-    margin-left: 80px;
-    padding: 0 50px;
+    margin-left: 10 0px;
+    padding-left: 80px;
     text-align: center;
 }
 
@@ -436,10 +436,12 @@ footer .redessociales .whats:hover {
         padding-bottom: 10px;
     }
     footer .redessociales .boxSocial1 {
-        padding-left: 110px;
+        padding: 0 90px;
+        margin-left: 55px;
     }
     footer .redessociales .boxSocial2 {
-        margin-left: 80px;
+        margin-right: 70px;
+        padding-left: 30px;
     }
 }
 
@@ -476,7 +478,7 @@ footer .redessociales .whats:hover {
     }
     footer .redessociales .boxSocial1 {
         text-align: center;
-        margin-right: 0;
+        margin: 0;
         padding: 0;
     }
     footer .redessociales .boxSocial1 .rs {
@@ -485,7 +487,7 @@ footer .redessociales .whats:hover {
     }
     footer .redessociales .boxSocial2 {
         border-left: 0;
-        margin-left: 0;
+        margin: 0;
         padding: 0;
         text-align: center;
     }
