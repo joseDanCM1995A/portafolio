@@ -151,6 +151,21 @@ header .contenedor-texto .texto .profesion {
     text-align: center;
 }
 
+.main .acercade .contenedor .texto .p {
+    text-align: center;
+}
+
+.onikom {
+    text-decoration: none;
+    color: black;
+}
+
+.onikom:hover {
+    text-decoration: underline;
+    color: rgb(21, 21, 151);
+}
+
+text-decoration: underline;
 
 /* cv */
 
