@@ -157,12 +157,12 @@ header .contenedor-texto .texto .profesion {
 
 .onikom {
     text-decoration: none;
-    color: black;
+    color: #5a5a5a;
 }
 
 .onikom:hover {
     text-decoration: underline;
-    color: rgb(21, 21, 151);
+    color: #5a5a5a;
 }
 
 

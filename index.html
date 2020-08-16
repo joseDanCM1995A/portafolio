@@ -18,16 +18,15 @@
     <header>
         <div class="contenedor ">
             <nav class="menu animate__animated animate__bounceInLeft">
-                <a href="#about">Acerca de</a>
-                <a href="#jobs">Trabajos</a>
-                <a href="#contact">Contacto</a>
+                <a href="#about">Acerca de mi</a>
+                <a href="#jobs">Proyectos</a>
+                <a href="#contact">Contáctame</a>
             </nav>
 
             <div class="contenedor-texto animate__animated animate__bounceInLeft ">
                 <div class="texto">
                     <h1 class="nombre">Ing. Computación</h1>
-                    <h2 class="profesion">Desarrollador web jr.</h2>
-                    <h2 class="nivel">Pasante</h2>
+                    <h2 class="profesion"> <strong>Frontend Web Developer</strong></h2>
                 </div>
             </div>
         </div>
@@ -42,9 +41,9 @@
                 </div>
 
                 <div class="texto">
-                    <h3 class="titulo" id="about">Acerca de</h3>
+                    <h3 class="titulo" id="about">Acerca de mi</h3>
 
-                    <p>Hola soy <strong>José Daniel Contreras Medina</strong> y soy <strong>Web Developer</strong> en el aŕea de Front-end con Angular. Soy egresado de Facultad de Ingeniería, Universidad Autónoma del Estado de México.
+                    <p>¡Hola! Soy <strong>José Daniel Contreras Medina</strong> y soy <strong>Fronted Web Developer</strong>. Soy egresado de Facultad de Ingeniería, Universidad Autónoma del Estado de México.
                         <p>Actualmente me encuentro trabajando en la empresa <strong><a class="onikom" href="https://www.onikom.com.mx/">Onikom</a></strong>. Es una consultora que se dedica al desarrollo de aplicaciones de software con diferentes tipos de
                             tecnologías.
                         </p>
@@ -59,10 +58,10 @@
                                 Prácticas profesionales en IEEM, Toluca, Edo. Mex.
                             </li>
                             <li>
-                                Desarrolador web trainning en REVIMEX, Santa fé, CDMX.
+                                Desarrollador web trainning en REVIMEX, Santa fé, CDMX.
                             </li>
                             <li>
-                                Participación como aplicador exámenes en media superior y superior (EXANI I- EXANI II).
+                                Aplicador en exámenes de media superior y superior en la UAEM (EXANI I- EXANI II).
                             </li>
                         </ul>
                         <p><strong>"Para mejorar la calidad de mis servicios siempre estoy informado de los nuevos descubrimientos, técnicas y tecnologías que puedo aplicar para brindar un trabajo de primera calidad."</strong> </p>
@@ -82,7 +81,7 @@
         <section class="trabajos">
             <div class="contenedor">
                 <div id="particles-js"></div>
-                <h3 class="titulo" id="jobs">Trabajos</h3>
+                <h3 class="titulo" id="jobs">Proyectos</h3>
                 <div class="contenedor-trabajos">
                     <!--trabajo 1-->
                     <div class="trabajo">
@@ -469,13 +468,13 @@
     <footer>
         <section class="contacto">
             <div class="contenedor">
-                <h3 class="titulo" id="contact"> Contacto</h3>
+                <h3 class="titulo" id="contact"> Contáctame</h3>
                 <form method="post" class="formulario" action="datos.php">
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre:" required>
                     <input type="email" name="correo" id="correo" placeholder="Correo:" required>
                     <input type="tel" name="telefono" id="telefono" placeholder="Telefono:" required>
                     <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje:" required></textarea>
-                    <input class="boton" type="submit" name="enviar" id="enviar" value="enviar">
+                    <input class="boton" type="submit" name="enviar" id="enviar" value="enviar" (click)="prevent($even)">
                 </form>
             </div>
         </section>
@@ -492,7 +491,7 @@
             <div class="boxSocial2">
                 <p>Sitio desarrollado por José Daniel Contreras Medina </p>
                 <p>ingejosedancm@gmail.com</p>
-                <p>Update: 20/07/2020</p>
+                <p>Update: 15/08/2020</p>
                 <p> &copy; 2020 </p>
             </div>
         </section>

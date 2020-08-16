@@ -10,6 +10,8 @@
     include_once('phpmailer/PHPMailer.php');
     include_once('phpmailer/SMTP.php');
     include_once('phpmailer/Exception.php');
+    include_once('phpmailer/OAuth.php');
+    include_once('phpmailer/POP3.php');
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->IsSMTP(); // enable SMTP
@@ -37,7 +39,7 @@
  } else {
     echo "<script>
         alert('Los datos se han enviado correctamente. Pronto me pondré en contacto con usted. Gracias');
-        function redireccionar(){
+        function redireccionar(e){
             window.location= 'index.html';
           } 
           setTimeout ('redireccionar()', 500); //tiempo expresado en milisegundos
