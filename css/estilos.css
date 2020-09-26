@@ -206,7 +206,7 @@ header .contenedor-texto .texto .profesion {
     line-height: 34px;
     margin-bottom: 40px;
     font-weight: 300;
-    color: #323068;
+    color: #040081;
     text-align: center;
 }
 
@@ -231,7 +231,13 @@ header .contenedor-texto .texto .profesion {
 .main .trabajos .contenedor-trabajos .trabajo .thumb img {
     width: 100%;
     vertical-align: top;
-    border-radius: 3px;
+    border-radius: 10%;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb img:hover {
+    transition: 1s;
+    border: 5px solid #a6a6a4;
+    border-radius: 50%;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion {
