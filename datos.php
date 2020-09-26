@@ -24,7 +24,7 @@
     $mail->Port = 465; 
     //para acceder a la cuenta
     $mail->Username = "portafolio.jdcm@gmail.com";
-    $mail->Password = "nst.DEXALRAK1995A.";
+    $mail->Password = "nst.DEXALRAK1995a.";
 
     $mail->SetFrom("portafolio.jdcm@gmail.com", $nombre);
     $mail->AddAddress("ingejosedancm@gmail.com");
