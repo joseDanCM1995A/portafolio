@@ -11,7 +11,7 @@ if(!empty($_GET['file'])){
         header("Cache-Control: public"); // que sea publico
         header("Content-Description: File Transfer"); //ftp
         header("Content-Disposition: attachment; filename=$fileName"); // archivo adjunto y nombre
-        header("Content-Type: application/zip"); // tipo de aplicación
+        header("Content-Type: application/pdf"); // tipo de aplicación
         header("Content-Transfer-Encoding: binary");
         
         //Leyendo el archivo
